@@ -12,6 +12,11 @@ The project follows a production-ready Machine Learning pipeline, ensuring data 
 Outlier Detection: Identified and removed structural anomalies (e.g., properties > 4000 sq.ft with abnormally low prices) to prevent regression bias.
 Target Transformation: Applied log1p transformation to the target variable (SalePrice) to correct positive skewness and satisfy the normality assumption of linear models.
 Correlation Analysis: Filtered multicollinear features and identified key price drivers (OverallQual, GrLivArea).
+<img width="876" height="547" alt="download (1)" src="https://github.com/user-attachments/assets/caf88dd4-7b76-415d-b7d3-0a74621a9a7c" />
+<img width="1298" height="470" alt="download (2)" src="https://github.com/user-attachments/assets/55efdbd0-f54d-473f-98af-d971894a5f62" />
+<img width="1311" height="470" alt="download (3)" src="https://github.com/user-attachments/assets/94503330-d03a-4ae7-a35d-175045acc5f5" />
+<img width="851" height="772" alt="download (4)" src="https://github.com/user-attachments/assets/24dfc770-4b01-4566-a3c9-82f73b27e89c" />
+
 2. Advanced Feature Engineering
 Imputation Strategy: Implemented domain-specific imputation logic (e.g., filling LotFrontage based on neighborhood medians) instead of simple mean/mode filling.
 Feature Construction: Engineered aggregated features such as TotalSF (Total Square Footage) and TotalBath, which demonstrated higher correlation with the target than individual metrics.
@@ -31,6 +36,7 @@ Optuna: Used Bayesian optimization for hyperparameter tuning, which is more effi
 🔍 Model Interpretation (XAI)
 To ensure the model is trustworthy for business stakeholders, SHAP (SHapley Additive exPlanations) values were analyzed.
 <img width="516" height="588" alt="Screenshot 2025-11-19 at 21 49 51" src="https://github.com/user-attachments/assets/c50019dd-45db-4e2d-9156-3bbd5994ff4b" />
+<img width="855" height="547" alt="download (5)" src="https://github.com/user-attachments/assets/95a18b60-03e5-4533-977e-261001d4084b" />
 
 Key Business Insights:
 Quality over Quantity: OverallQual (Material & Finish Quality) is the single most critical predictor, showing a non-linear exponential impact on price.
