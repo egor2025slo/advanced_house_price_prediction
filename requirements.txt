@@ -1,0 +1,1 @@
+pandas == 2.2.2numpy == 2.0.2matplotlib == 3.10.0seaborn == 0.13.2scipy == 1.16.3scikit-learn == 1.6.1xgboost == 3.1.1lightgbm == 4.6.0shap == 0.50.0python == 3.12.12
