@@ -53,4 +53,3 @@ Final Kaggle Score	0.12240
 
 Source:
 Kaggle - https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
-Egor Volokitin
